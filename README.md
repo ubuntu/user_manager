@@ -31,7 +31,7 @@ ____
 ## Install Flutter on Ubuntu and enable flutter Linux desktop support
 
 ```bash
-sudo snap install flutter
+sudo snap install flutter --classic
 flutter channel beta
 flutter upgrade
 flutter config --enable-linux-desktop
